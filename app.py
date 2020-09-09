@@ -19,9 +19,9 @@ def predict():
     vect=cv.transform(data).toarray()
     my_prediction=model.predict(vect)
     if my_prediction==1:
-        result="It's a Spam message"
+        result="Looking Spam, Be Safe"
     elif my_prediction==0:
-        result="It's Not a Spam message"
+        result="Not a Spam message"
     return result
     
 
