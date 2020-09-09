@@ -2,4 +2,4 @@
 NLP based end to end model deployment on cloud server
 
 
-![](Api_images/screenshot.png)
+<img src="Api_images/screenshot.png" width="700" heigth="300">
